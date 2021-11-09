@@ -2,12 +2,16 @@
   "name": "cooking-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "14.18.1"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",

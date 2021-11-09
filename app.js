@@ -494,7 +494,7 @@ function isLoggedIn(req,res,next){
     }
 }
 
-
-app.listen(3000, function(req,res){
+const port = process.env.PORT || 3000;
+app.listen(port, function(req,res){
 	console.log("Server is listining port 3000 !!!")
 })
